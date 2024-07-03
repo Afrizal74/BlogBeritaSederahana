@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 24, 34);
+    overflow-x: hidden;
+}
+
+.header {
+    text-align: center;
+    font-family: sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+
+.h2-header {
+    color: white;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.ul-navbar {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.li-navbar {
+    list-style-type: none;
+}
+
+.a-navbar {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.a-navbar:hover {
+    color: darkorange;
+    transition: ease-in-out 0.3s;
+}
+
+.container-grid {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(asset/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.ul-sidebar {
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.h3-kategori { 
+    color: white;
+}
+
+.li-sidebar {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.a-sidebar {
+    text-decoration: none;
+    color: white;
+}
+
+.a-sidebar:hover {
+    background-color: darkorange;
+    color: black;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.1s;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.content-1 {
+    font-family: sans-serif;
+    color: white;
+    margin: 20px;
+}
+
+.foto-1 {
+    height: 250px;
+    width: 180px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content-2 {
+    font-family: sans-serif;
+    color: white;
+    margin: 20px;
+}
+
+.image2 {
+    width: 300px;
+    height: 190px;
+}
+
+.image3 {
+    width: 350px;
+    height: 200px;
+}
+
+.h3-content-2 {
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  
+.footer-p {
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+}
